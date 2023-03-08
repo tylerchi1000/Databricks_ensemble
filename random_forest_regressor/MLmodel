@@ -1,0 +1,32 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.2
+mlflow_version: 1.29.0
+model_uuid: 1aff280785c04ae3bdc9fbc4193a2dba
+run_id: af59677710734ac4a2d4b20cfb42c784
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "CementComponent", "type": "double"}, {"name": "BlastFurnaceSlag",
+    "type": "double"}, {"name": "FlyAshComponent", "type": "double"}, {"name": "WaterComponent",
+    "type": "double"}, {"name": "SuperplasticizerComponent", "type": "double"}, {"name":
+    "CoarseAggregateComponent", "type": "double"}, {"name": "FineAggregateComponent",
+    "type": "double"}, {"name": "AgeInDays", "type": "integer"}, {"name": "Water_Cement",
+    "type": "double"}, {"name": "Coarse_Fine", "type": "double"}, {"name": "Aggregate",
+    "type": "double"}, {"name": "Aggregate_Cement", "type": "double"}, {"name": "Slag_Cement",
+    "type": "double"}, {"name": "Ash_Cement", "type": "double"}, {"name": "Plastic_Cement",
+    "type": "double"}, {"name": "Age_Water", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+utc_time_created: '2023-03-05 09:32:49.721900'
