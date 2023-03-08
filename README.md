@@ -14,8 +14,8 @@ The following regression models were trained and implemented:
 
 Each model's folder contains the following:
 
-- Trained model: [File Name](/model.pkl)
-- Conda environment file: [File Name](/conda.yml)
+- Trained model: (/model.pkl)
+- Conda environment file: (/conda.yml)
 
 Additionally a sample training file for the lgbm model is located at [ExampleTrainingLightgbm](/ExampleTrainingLightgbm.py)
 ## Usage
@@ -37,7 +37,3 @@ Contributions to this project are welcome. To contribute, please follow the stan
 2. Create a new branch.
 3. Make your changes.
 4. Create a pull request.
-
-## License
-
-Specify the license under which your project is distributed.
